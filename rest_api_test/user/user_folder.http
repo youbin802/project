@@ -1,0 +1,32 @@
+###
+#유저의 최상단 폴더 아래의 모든 파일, 폴더 정보 
+GET http://localhost:3000/user/folder HTTP/1.1
+content-type: application/json
+
+###특정 폴더 아래 모든 파일, 폴더 정보 
+GET http://localhost:3000/user/folder/id1 HTTP/1.1
+content-type: application/json
+
+###
+#폴더 생성/ current보다 parent가 쓰기 쉬울 듯
+POST http://localhost:3000/user/folder/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "parent" : "id1",
+    "name" : "name10134"
+}
+
+###
+#폴더 삭제
+DELETE http://localhost:3000/user/folder/įīŷĵűķŒŶŏīšŗŇřŖŨŢŌŬźŏōŨłœŹīŭĸųŕŬŭŒŘŗůŢĲţŲŘůĽ HTTP/1.1
+
+###
+#폴더 이름, 위치 수정/ 위치 수정할 때 target보다 parent가 쓰기 쉬울 듯
+PUT http://localhost:3000/user/folder/īőŬűŗŢŘĳŶůŃŵŋŊĶŏŒĶůŸŘńīőůŏřłŦŉĴŅłŨŭŲŤœũŌŏũĴĽ HTTP/1.1
+Content-Type: application/json
+
+{
+    "name" : "수정된 이름1",
+    "parent" : "user1"
+}

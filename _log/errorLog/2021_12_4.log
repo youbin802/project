@@ -1,0 +1,249 @@
+[Sat Dec 04 09:30:15 2021] [pid: 11736] 301: FsUtil: TypeError
+    at FsUtil.check (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:45:26)
+    at FsUtil.remove (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:91:22)
+    at removeFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:34:12)
+    at postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:56:7)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\Users\User\Documents\GitHub\skills2021\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[Sat Dec 04 09:30:55 2021] [pid: 6412] 301: FsUtil: TypeError
+    at FsUtil.check (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:45:26)
+    at FsUtil.remove (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:91:22)
+    at removeFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:36:12)
+    at postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:58:7)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\Users\User\Documents\GitHub\skills2021\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[Sat Dec 04 09:31:01 2021] [pid: 6412] 301: FsUtil: TypeError
+    at FsUtil.check (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:45:26)
+    at FsUtil.remove (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:91:22)
+    at removeFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:36:12)
+    at postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:58:7)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\Users\User\Documents\GitHub\skills2021\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[Sat Dec 04 09:31:31 2021] [pid: 13212] 301: FsUtil: TypeError
+    at FsUtil.check (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:45:26)
+    at FsUtil.remove (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:91:22)
+    at removeFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:34:12)
+    at postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:57:7)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\Users\User\Documents\GitHub\skills2021\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[Sat Dec 04 09:31:32 2021] [pid: 13212] 301: FsUtil: TypeError
+    at FsUtil.check (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:45:26)
+    at FsUtil.remove (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:91:22)
+    at removeFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:34:12)
+    at postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:57:7)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\Users\User\Documents\GitHub\skills2021\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[Sat Dec 04 09:32:07 2021] [pid: 13852] 301: FsUtil: TypeError
+    at FsUtil.check (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:45:26)
+    at FsUtil.remove (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:91:22)
+    at removeFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:34:12)
+    at postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:56:7)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\Users\User\Documents\GitHub\skills2021\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[Sat Dec 04 09:32:13 2021] [pid: 13852] 301: FsUtil: TypeError
+    at FsUtil.check (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:45:26)
+    at FsUtil.remove (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Util\FsUtil.js:91:22)
+    at removeFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:34:12)
+    at postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:56:7)
+    at Layer.handle [as handle_request] (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\User\Documents\GitHub\skills2021\node_modules\express\lib\router\route.js:137:13)
+    at Array.<anonymous> (C:\Users\User\Documents\GitHub\skills2021\node_modules\multer\lib\make-middleware.js:53:37)
+    at listener (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:169:15)
+    at onFinish (C:\Users\User\Documents\GitHub\skills2021\node_modules\on-finished\index.js:100:5)
+    at callback (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:55:10)
+    at IncomingMessage.onevent (C:\Users\User\Documents\GitHub\skills2021\node_modules\ee-first\index.js:93:5)
+    at IncomingMessage.emit (events.js:412:35)
+    at endReadableNT (internal/streams/readable.js:1334:12)
+    at processTicksAndRejections (internal/process/task_queues.js:82:21)
+[Sat Dec 04 09:32:43 2021] [pid: 2740] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:61:17)
+[Sat Dec 04 09:32:56 2021] [pid: 2740] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:61:17)
+[Sat Dec 04 09:35:40 2021] [pid: 13136] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:61:17)
+[Sat Dec 04 09:36:44 2021] [pid: 9144] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:62:17)
+[Sat Dec 04 09:37:04 2021] [pid: 9052] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:62:17)
+[Sat Dec 04 09:52:06 2021] [pid: 5324] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:65:17)
+[Sat Dec 04 09:53:49 2021] [pid: 7240] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:63:17)
+[Sat Dec 04 09:54:01 2021] [pid: 7240] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:63:17)
+[Sat Dec 04 09:54:26 2021] [pid: 16460] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:63:17)
+[Sat Dec 04 09:54:55 2021] [pid: 12012] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:64:17)
+[Sat Dec 04 09:55:11 2021] [pid: 9508] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:64:17)
+[Sat Dec 04 09:55:14 2021] [pid: 3888] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:64:17)
+[Sat Dec 04 09:55:25 2021] [pid: 6404] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:64:17)
+[Sat Dec 04 09:55:40 2021] [pid: 1532] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:64:17)
+[Sat Dec 04 10:01:11 2021] [pid: 7720] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:65:17)
+[Sat Dec 04 10:03:04 2021] [pid: 12792] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:65:17)
+[Sat Dec 04 10:03:35 2021] [pid: 17352] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:64:17)
+[Sat Dec 04 10:09:36 2021] [pid: 8376] 202: null pointer exception
+    at module.exports.getClassFiles (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\FileDAO.js:289:26)
+    at async getClassFileAll (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:143:18)
+[Sat Dec 04 10:09:54 2021] [pid: 17180] 202: null pointer exception
+    at module.exports.getClassFiles (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\FileDAO.js:295:26)
+    at async getClassFileAll (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:143:18)
+[Sat Dec 04 10:12:37 2021] [pid: 11872] 202: null pointer exception
+    at module.exports.getClassFiles (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\FileDAO.js:292:26)
+    at async getClassFileAll (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:143:18)
+[Sat Dec 04 10:14:09 2021] [pid: 13672] 202: null pointer exception
+    at module.exports.getClassFiles (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\FileDAO.js:294:26)
+    at async getClassFileAll (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:143:18)
+[Sat Dec 04 10:14:10 2021] [pid: 13672] 202: null pointer exception
+    at module.exports.getClassFiles (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\FileDAO.js:294:26)
+    at async getClassFileAll (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:143:18)
+[Sat Dec 04 10:24:34 2021] [pid: 2740] 202: null pointer exception
+    at module.exports.updateClassFileSetting (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\FileDAO.js:233:26)
+    at putClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:178:32)
+[Sat Dec 04 10:24:44 2021] [pid: 2740] 202: null pointer exception
+    at module.exports.updateClassFileSetting (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\FileDAO.js:233:26)
+    at putClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:178:32)
+[Sat Dec 04 10:24:58 2021] [pid: 2740] 202: null pointer exception
+    at module.exports.updateClassFileSetting (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\FileDAO.js:233:26)
+    at putClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:178:32)
+[Sat Dec 04 10:25:43 2021] [pid: 744] 202: null pointer exception
+    at module.exports.updateClassFileSetting (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\FileDAO.js:233:26)
+    at putClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:178:32)
+[Sat Dec 04 10:26:05 2021] [pid: 12576] 202: null pointer exception
+    at module.exports.updateClassFileSetting (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\FileDAO.js:234:26)
+    at putClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:178:32)
+[Sat Dec 04 10:29:21 2021] [pid: 7996] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async postClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:63:17)
+[Sat Dec 04 10:34:18 2021] [pid: 7904] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async deleteClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:160:17)
+[Sat Dec 04 10:35:09 2021] [pid: 7904] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async deleteClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:160:17)
+[Sat Dec 04 10:35:46 2021] [pid: 1556] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async deleteClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:160:17)
+[Sat Dec 04 10:36:31 2021] [pid: 8040] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async deleteClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:160:17)
+[Sat Dec 04 10:36:52 2021] [pid: 7188] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async deleteClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:160:17)
+[Sat Dec 04 10:37:30 2021] [pid: 16648] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async deleteClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:161:17)
+[Sat Dec 04 10:38:24 2021] [pid: 7176] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async deleteClassFile (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\ClassController\ClassFileController.js:160:17)
+[Sat Dec 04 02:27:07 2021] [pid: 8560] 203: null pointer exception
+    at messageDAO.sendMessage (C:\Users\PCA03\Documents\GitHub\skills2021\_Api_Interface\DAO\messageDAO.js:142:26)
+    at async postProcess (C:\Users\PCA03\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:111:7)
+[Sat Dec 04 02:53:49 2021] [pid: 6616] 203: null pointer exception
+    at messageDAO.getLastMessageTime (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\messageDAO.js:32:26)
+    at async a (C:\Users\User\Documents\GitHub\skills2021\app.js:41:5)
+[Sat Dec 04 02:54:02 2021] [pid: 9288] 203: null pointer exception
+    at messageDAO.getLastMessageTime (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\messageDAO.js:33:26)
+    at async a (C:\Users\User\Documents\GitHub\skills2021\app.js:41:5)
+[Sat Dec 04 02:55:00 2021] [pid: 7336] 203: null pointer exception
+    at messageDAO.getLastMessageTime (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\messageDAO.js:34:26)
+    at async a (C:\Users\User\Documents\GitHub\skills2021\app.js:41:5)
+[Sat Dec 04 02:55:05 2021] [pid: 9792] 203: null pointer exception
+    at messageDAO.getLastMessageTime (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\messageDAO.js:34:26)
+    at async a (C:\Users\User\Documents\GitHub\skills2021\app.js:41:5)
+[Sat Dec 04 03:01:48 2021] [pid: 1524] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async getProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:24:10)
+[Sat Dec 04 03:02:11 2021] [pid: 1524] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async getProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:24:10)
+[Sat Dec 04 03:02:46 2021] [pid: 748] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async getProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:24:10)
+[Sat Dec 04 03:02:48 2021] [pid: 748] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:270:26)
+    at async getProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:24:10)
+[Sat Dec 04 03:02:52 2021] [pid: 8148] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:271:26)
+    at async getProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:24:10)
+[Sat Dec 04 03:03:57 2021] [pid: 8148] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:271:26)
+    at async getProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:24:10)
+[Sat Dec 04 03:04:33 2021] [pid: 11224] 202: null pointer exception
+    at module.exports.getUserJob (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\ClassDAO.js:271:26)
+    at async getProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:24:17)
+[Sat Dec 04 04:13:56 2021] [pid: 16240] 203: null pointer exception
+    at messageDAO.sendMessage (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\messageDAO.js:264:26)
+    at postProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:148:29)

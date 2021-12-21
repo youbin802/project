@@ -1,0 +1,12 @@
+[Fri Dec 17 04:06:13 2021] [pid: 12588] 204: null pointer exception
+    at messageDAO.updateClose (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\messageDAO.js:333:26)
+    at async putProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:137:16)
+[Fri Dec 17 04:06:14 2021] [pid: 12588] 204: null pointer exception
+    at messageDAO.updateClose (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\messageDAO.js:333:26)
+    at async putProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:137:16)
+[Fri Dec 17 04:07:34 2021] [pid: 15288] 204: null pointer exception
+    at messageDAO.updateClose (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\messageDAO.js:334:26)
+    at async putProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:137:16)
+[Fri Dec 17 04:08:03 2021] [pid: 4948] 204: null pointer exception
+    at messageDAO.updateClose (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\DAO\messageDAO.js:354:26)
+    at async putProcess (C:\Users\User\Documents\GitHub\skills2021\_Api_Interface\Controllers\UserController\ClassMessageController.js:137:16)

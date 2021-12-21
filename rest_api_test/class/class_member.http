@@ -1,0 +1,11 @@
+###수업의 모든 참가자 가져오기
+GET http://localhost:3000/class/875f8e4d-e2f1-4b5a-a/member HTTP/1.1
+
+###수업의 모든 학생 가져오기
+GET http://localhost:3000/class/875f8e4d-e2f1-4b5a-a/student HTTP/1.1
+
+###수업의 모든 교사 가져오기
+GET http://localhost:3000/class/875f8e4d-e2f1-4b5a-a/teacher?type=true HTTP/1.1
+
+###직업이 교사이지만 해당 수업에서는 직업이 교사가 아닌 사람 불러오기
+GET http://localhost:3000/class/875f8e4d-e2f1-4b5a-a/teacher?type=false HTTP/1.1

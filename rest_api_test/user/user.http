@@ -1,0 +1,42 @@
+#유저 정보 불러오기
+#로그인 되어있는 아이디와 같다면 모든 정보를,
+#다르다면 제한된 정보를 불러옴
+GET http://localhost:3000/user
+
+
+#type=teacher|student
+###
+GET http://localhost:3000/user?type=teacher
+
+### 로그인 되어 있는 아이디를 삭제하고 로그아웃함
+DELETE http://localhost:3000/user
+
+### 회원가입
+POST http://localhost:3000/user
+content-type: application/json
+
+{
+    "userId" : "join test id3",
+    "userName" : "join test name",
+    "job" : 1
+}
+
+# job이 0이면 교사, 1이면 학생
+
+# 유저 정보를 수정 하려면 원하는 속성과 값을 넣어주면 된다
+### 유저 정보 수정 예시 1
+PUT http://localhost:3000/user
+content-type: application/json
+
+{
+    "userName" : "user1",
+    "status" : 1
+}
+
+### 유저 정보 수정 예시 2
+PUT http://localhost:3000/user
+content-type: application/json
+
+{
+    "userName" : "hi"
+}

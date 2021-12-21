@@ -1,0 +1,234 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    position: absolute;
+    width:100%;
+    height: 100%;
+}
+
+/* 제일 큰 창 영역 */
+.main-content {
+    background-color: #36393f;
+    padding: 100px; 
+    border-radius: 10px;
+}
+
+.night {
+    background-color: #ffffff;
+}
+
+.main-container {
+    width:785px;
+    height:410px;
+    margin: 0 auto;
+}
+
+/* 수업중, 내 수업 텍스트 스타일 */
+.menu-text {
+    color:rgba(255, 255, 255, 0.835);
+    background-color: rgba(255, 0, 0, 0.685);
+    width:80px;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+#classText {
+    background-color: rgba(255, 255, 255, 0.472);
+    color:#000;
+}
+
+/* .box-menu form {
+    padding-bottom: 10px;
+} */
+
+
+/* 수업중 영역 */
+.box-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.class-box {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:20px;
+    background-color: #f4f4f477;
+    padding:20px;
+    border-radius: 5px;
+}
+
+.class-box .class {
+    background-color: #ddd;
+    width:100%;
+    height: 100px;
+    border-radius: 5px;
+}
+
+.class-box .class img {
+    width: 173px;
+    height: 100px;
+}
+
+
+/* 수업중 영역 끝*/
+#addBtn {
+    position: absolute;
+    right: 0%;
+    margin-top:10px;
+}
+
+footer {
+    color:#fff;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    width:100%;
+}
+
+.teacher {
+    margin-left: 400px;
+    margin-top: -60px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.teacher > div {
+    display: flex;
+    flex-direction: row;
+    gap: 6px;
+}
+
+.teacher > div > div {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    background-color: red;
+    border-radius: 100px;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.teacher > div > div > div {
+    margin-top: -6px;
+    color: white;
+}
+
+#user-info { 
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#user-info > i {
+    font-size: 30px;
+    color: white;
+}
+
+/* 모달 부분 */
+/* 선생님 - 수업 생성 부분 */
+.sub-box {
+    width:785px;
+    height:140px;
+    border-radius: 5px;
+    background-color: #f4f4f477;
+    padding:20px;
+    position: relative;
+}
+
+.thumbnail {
+    width: 170px;
+    height: 80px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.719);
+}
+
+.thumbnail > p {
+    background-color: rgba(255, 255, 255, 0.541);
+    text-align: center;
+    z-index: 1;
+}
+
+.photoFrame {
+    /* position: absolute; */
+    height: 80px;
+    margin-top: -40px;
+    z-index: 0;
+    background-position: center;
+    background-size: cover;
+}
+
+#delete {
+    width: 80px;
+    height: 34px;
+    margin-left: 45px;
+    margin-top: 25px;
+}
+
+.sub-box #create-btn {
+    position: absolute;
+    right: 4%;
+    bottom: 4%;
+}
+
+#create-btn > button {
+    width: 110px;
+}
+
+#btn-group {
+    position: absolute;
+    margin-left: 550px;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin-top: 90px;
+}
+
+#btn-group button {
+    width: 80px;
+}
+
+.modal {
+    display: none;
+}
+
+.close {
+    font-size: 30px;
+    margin-left: 850px;
+    margin-top: -100px;
+    position: absolute;
+    color: red;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* 화이트모드 */
+
+.night * {
+
+}
+
+.night .main-content {
+    background-color: white;
+    color: #36393f;
+}
+
+.night .menu-text {
+    background-color: #36393f;
+    color: white;
+}
+
+.night .class-box {
+    background-color: #a7a7a777;
+}
+
+.night .sub-box {
+    background-color: #a7a7a777;
+}

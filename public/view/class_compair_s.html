@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <!-- 학생 -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클래스-코드비교-학생</title>
+    <link rel="stylesheet" href="../resources/css/class2.css">
+    <link rel="stylesheet" href="../resources/fontawesome-free-5.15.4-web/css/all.min.css">
+</head>
+<body>
+    <section id="main_wrapper">
+        <section id="head_wrapper">
+            <div id="door_box">
+                <a id="goout_icon" href="#"><i class="fas fa-door-open"></i></a>
+            </div>
+        </section>
+    
+        <section id="content_wrapper">
+            <div id="explorer_box">
+                <nav id="explorer_nav">
+                    <ul class="menu">
+                        <li>파일</li>
+                        <li>폴더</li>
+                        <li>쪽지 <span id="chat_badge">2</span></li>
+                    </ul>
+                </nav>
+                
+                <div id="explorer">
+                    <div id="live_bar" class="exp_bar">
+                        <i class="fas fa-circle"></i>실시간 코드
+                    </div>
+                    <div>
+                        <div class="exp_bar">
+                            공유 파일 목록<i class="reload fas fa-redo-alt"></i></i>
+                        </div>
+                        <ul class="exp_list">
+                            <li>MainApp.java</li>
+                            <li>MainApp.java</li>
+                            <li>MainApp.java</li>
+                        </ul>    
+                    </div>
+                    
+                </div>
+            </div>
+        
+            <div id="worksapce_box">
+                <nav id="worksapce_nav">
+                    <ul class="menu">
+                        <li>코드 비교</li>
+                        <li>코드 복사</li>
+                        <li>코드 저장</li>
+                        <li>내려받기</li>
+                        <li class="option_parent">
+                            보기 옵션
+                            <ul class="option_box">
+                                <li>
+                                    <input type="checkbox" name="lines" id="lines">
+                                    <label for="lines">줄 번호</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="spacing" id="spacing">
+                                    <label for="spacing">띄어쓰기 포함</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" name="case" id="case">
+                                    <label for="case">대소문자 구분</label>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </nav>
+                
+                <div id="code_area">
+                    <div class="code_type_box t_code">
+                        <h2>교사 코드</h2>
+                        <div>
+                            <mark class="markup">public static void main(Str<span class="highlight">i</span>ng args[]) {</mark><br>
+                                System.out.println("hihi");<br>
+                            }<br>
+                            <br>
+                            <mark class="markup">
+                                <span class="highlight">
+                                    public static void test() {<br>
+                                    }<br>
+                                </span>
+                            </mark>
+                        </div>
+                    </div>
+                    <div class="code_type_box">
+                        <h2>학생 코드 입력</h2>
+                        <div>
+                            <mark class="markup">public static void main(Strng args[]) {</mark><br>
+                                System.out.println("hihi");<br>
+                            }<br>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    
+    
+</body>
+</html>

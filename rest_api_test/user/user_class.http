@@ -1,0 +1,26 @@
+#내 수업정보들
+GET http://localhost:3000/user/class HTTP/1.1
+content-type: application/json
+
+###
+#내 수업정보
+#수정 유저 정보및 더 자세한 정보 출력 예 관리자 | 부관리자 | 학생
+GET http://localhost:3000/user/class/99a40e22-d0bc-4f88-b HTTP/1.1
+content-type: application/json
+
+###
+#수업 참가하기
+POST http://localhost:3000/user/class HTTP/1.1
+content-type: application/json
+
+{
+    "classId": "9ee5c613-5f3e-440c-9"
+}
+
+
+###
+#수업 나가기
+#수정 이미 수업에서 나가었으면 true뜨면 안됨
+DELETE http://localhost:3000/user/class/9ee5c613-5f3e-440c-9 HTTP/1.1
+content-type: application/json
+

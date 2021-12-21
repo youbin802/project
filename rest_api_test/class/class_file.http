@@ -1,0 +1,35 @@
+#수업의 모든파일 가져오기
+GET http://localhost:3000/class/99a40e22-d0bc-4f88-b/file HTTP/1.1
+
+
+### 
+#클래스 파일의 원본 파일 정보 가져오기
+GET http://localhost:3000/class/0a0c3485-6f31-4376-b/file/129 HTTP/1.1
+
+### 
+#파일 업로드 & 공유 파일에 추가
+POST http://localhost:3000/class/0a0c3485-6f31-4376-b/file HTTP/1.1
+content-type: application/json
+
+{
+    "content": "안녕하세요ㅎㅎ..",
+    "setting" : { "copy": true, "download": true },
+    "fileName": "helloworldhelloworld"
+}
+
+
+###공유된 파일 수정 (수업의 관리자, 부관리자만 가능)
+PUT http://localhost:3000/class/875f8e4d-e2f1-4b5a-a/file
+content-type: application/json
+
+{
+    "classFileId": "149",
+    "fileName": "수정된 공유 파일 이름",
+    "setting" : { "copy": false, "download": true }
+}
+
+
+###공유파일에서 삭제 (수업의 관리자, 부관리자만 가능)
+DELETE http://localhost:3000/class/0a0c3485-6f31-4376-b/file/149
+
+

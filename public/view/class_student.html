@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>클래스-학생</title>
+    <link rel="stylesheet" href="/resources/css/class2.css">
+    <link rel="stylesheet" href="/resources/css/modal.css">
+    <script src="/resources/js/student.js"></script>
+
+    <!-- 라이브러리 -->
+    <link rel="stylesheet" href="/resources/fontawesome-free-5.15.4-web/css/all.min.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <input type="checkbox" class="checkbox">
+    <section id="main_wrapper">
+        <section id="head_wrapper">
+            <div id="door_box">
+                <a id="goout_icon" href="#"><i class="fas fa-door-open"></i></a>
+            </div>
+
+            <h1 id="menu_name"></h1>
+        </section>
+    
+        <section id="content_wrapper">
+            <div id="explorer_box">
+                <nav id="explorer_nav">
+                    <ul class="menu">
+                        <li><button data-idx="0">파일</button></li>
+                        <li><button data-idx="1">폴더</button></li>
+                        <li><button data-idx="2">쪽지<span id="chat_badge">2</span></li>
+                    </ul>
+                </nav>
+                
+                <div id="explorer">
+                    <!-- 파일 탭 -->
+                    <div>
+                        <div id="live_bar" class="exp_bar">
+                            <i class="fas fa-circle"></i>실시간 코드
+                        </div>
+                        <div>
+                            <div class="exp_bar">
+                                공유 파일 목록<i class="reload fas fa-redo-alt"></i></i>
+                            </div>
+                            <ul id="share_file_list" class="exp_list">
+                                <li>MainApp.java</li>
+                                <li>MainApp.java</li>
+                                <li>MainApp.java</li>
+                            </ul>    
+                        </div>
+                    </div>
+                    
+                    <!-- 폴더 탭 -->
+                    <div>
+                    </div>
+
+                    <!-- 쪽지 탭 -->
+                    <div>
+                        <div>
+                            <div id="letter_tab" class="exp_bar">
+                                <!-- 임시 클래스 적용!!!!!!!!!! -->
+
+                                <button class="letter_tab_1">받은 쪽지</button>
+                                <span>|</span>
+                                <button class="letter_tab_2">보낸 쪽지</button>
+                            </div>
+                            <ul id="letter_list" class="exp_list">
+                                <li>
+                                    교사이름<button class="file_remove_btn"><i class="fas fa-times"></i></button><br>
+                                    <span>보낸시간</span>
+    
+                                    <span id="chat_badge">1</span>
+                                </li>
+                                <li>
+                                    교사이름<button class="file_remove_btn"><i class="fas fa-times"></i></button><br>
+                                    <span>보낸시간</span>
+    
+                                    <span id="chat_badge">1</span>
+                                </li>
+                                <li>
+                                    교사이름<button class="file_remove_btn"><i class="fas fa-times"></i></button><br>
+                                    <span>보낸시간</span>
+                                </li>
+                            </ul>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div id="worksapce_box">
+                <!-- 파일 화면 -->
+                <div>
+                    <div id="live_view">
+                        <nav class="worksapce_nav">
+                            <ul class="menu">
+                                <li><button id="code_compair_btn">코드 비교</button></li>
+                                <li><button>코드 복사</button></li>
+                            </ul>
+                        </nav>
+                        <!-- 
+                            코드 복사 : ctrl+C
+                            코드 저장 : 자신 폴더 안에 저장
+                            코드 내려받기 : 내려받기
+                        -->
+                        <div class="code_area">
+                            <div class="code_area">
+                                <div class="code_type_box t_code">
+                                    <h2>교사 코드</h2>
+                                    <div>
+                                        <textarea class="codemirror-textarea" id="txt1"></textarea>
+                                    </div>
+                                </div>
+                                
+                            </div>    
+                        </div>
+                        
+                    </div>
+                    
+                    <div id="share_file_view">
+                        <nav class="worksapce_nav">
+                            <ul class="menu">
+                                <li><button id="code_compair_btn">코드 비교</button></li>
+                                <li><button>코드 복사</button></li>
+                                <li><button>코드 저장</button></li>
+                                <li><button id="code_down">내려받기</button></li>
+                        </nav>
+                        
+                        <div class="code_area">
+                            <div class="code_area">
+                                <div class="code_type_box t_code">
+                                    <h2>교사 코드</h2>
+                                    <div>
+                                        <textarea class="codemirror-textarea" id="txt2"></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- 폴더 화면 -->
+                <div>
+                    <nav class="worksapce_nav">
+                        <ul class="menu">
+                            <li><button>폴더 생성</button></li>
+                            <li><button>내려받기</button></li>
+                            <li><button>삭제</button></li>
+                        </ul>
+                    </nav>
+                    
+                    <div class="code_area">
+                        <div class="code_type_box">
+                            
+                            <ul class="drive_list">
+                                
+                            </ul>
+    
+    
+                            <div class="drop_area" id="file_drop_area">
+                                <i class="fas fa-angle-double-down"></i><br>
+                                Drop Here
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 쪽지 화면 -->
+                <div>
+                    <nav class="worksapce_nav">
+                        <ul class="menu">
+                            <li><button>전체 쪽지</button></li>
+                            <li><button id="send_modal_btn">쪽지 쓰기</button></li>
+                            <li><button id="apply_modal_btn">답장</button></li>
+                        </ul>
+                    </nav>
+                    
+                    <div class="code_area">
+                        <div class="code_type_box">
+                            <div id="letter_info">
+                                <div id="student">
+                                    교사 이름
+                                </div>
+                                <div id="send_time">
+                                    보낸 시간: 2021-11-02 오전 9:19
+                                </div>
+                            </div>
+    
+                            <div>
+                                쪽지 내용 쪽지 내용 쪽지 내용 쪽지 내용
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <!-- 쪽지함 보내기 모달 -->
+        <div id="send_modal" class="modal">
+            <div class="modal_content">
+                <h2>쪽지 보내기</h2>
+
+                <div class="modal_content_inner">
+                    <form action="">
+                        <div class="form_div">
+                            <label for="to">받는 사람</label>
+                            <div id="to_input_box">
+                                <button id="to_search_btn" class="modal_btn"><i class="fas fa-search"></i></button>
+                                <input type="text" name="to" id="to">
+
+                                <div>
+                                    <ul>
+
+
+
+
+
+
+                                        <li class="plus_stu stu">김교사 <span><i class="fas fa-plus"></i></span></li>
+                                        <li class="minus_stu stu">이교사 <span><i class="fas fa-minus"></i></span></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="form_div">
+                            <label for="send_content">내용</label>
+                            <textarea name="send_content" id="send_content" cols="30" rows="5" placeholder="내용을 입력해주세요"></textarea>
+                        </div>
+
+                        <div class="input_box">
+                            <button class="modal_btn">전송</button> 
+                        </div>
+                    </form>
+                </div>
+
+                <button class="close_modal_btn"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+
+
+
+        <!-- 쪽지함 답장 모달 -->
+        <div id="apply_modal" class="modal">
+            <div class="modal_content">
+                <h2>답장 보내기</h2>
+
+                <div class="modal_content_inner">
+                    <form action="">
+                        <div class="form_div">
+                            <label for="apply_content">내용</label>
+                            <textarea name="apply_content" id="apply_content" cols="30" rows="10" placeholder="내용을 입력해주세요"></textarea>
+                        </div>
+                        
+                        <div class="input_box">
+                            <button class="modal_btn">전송</button> 
+                        </div>
+                    </form>
+                </div>
+
+                <button class="close_modal_btn"><i class="fas fa-times"></i></button>
+            </div>
+        </div>
+    </section>
+
+
+        <!-- CodeMirror lib js -->
+        <script src="../resources/codemirror-5.63.3/lib/codemirror.js"></script>
+        <link rel="stylesheet" href="../resources/codemirror-5.63.3/lib/codemirror.css">
+        <link rel="stylesheet" href="../resources/codemirror-5.63.3/theme/darcula.css">
+        
+        <!-- CodeMirror mode -->
+        <script src="../resources/codemirror-5.63.3/mode/javascript/javascript.js"></script>
+        <script src="../resources/codemirror-5.63.3/mode/python/python.js"></script>
+        <script src="../resources/codemirror-5.63.3/mode/css/css.js"></script>
+        <script src="../resources/codemirror-5.63.3/mode/php/php.js"></script>
+    
+        <!-- <script src="../resources/codemirror-5.63.3/addon/hint/show-hint.css"></script> -->
+        <script src="../resources/codemirror-5.63.3/addon/hint/show-hint.js"></script>
+        <script src="../resources/codemirror-5.63.3/addon/hint/html-hint.js"></script>
+        <script src="../resources/codemirror-5.63.3/addon/hint/css-hint.js"></script>
+        <script src="../resources/codemirror-5.63.3/addon/hint/anyword-hint.js"></script>
+        <script src="../resources/codemirror-5.63.3/addon/hint/javascript-hint.js"></script>
+    
+        <script src="../resources/js/student.js" type="module"></script>
+</body>
+</html>

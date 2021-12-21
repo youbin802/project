@@ -1,0 +1,49 @@
+#클래스 안 나와 관련된 쪽지 전부 가져오기
+GET http://localhost:3000/user/class/0a0c3485-6f31-4376-b/message HTTP/1.1
+
+###
+#보낸 쪽지 가져오기
+GET http://localhost:3000/user/class/0a0c3485-6f31-4376-b/message/?type=send HTTP/1.1
+
+###
+#받은 쪽지 가져오기
+GET http://localhost:3000/user/class/0a0c3485-6f31-4376-b/message/?type=receive HTTP/1.1
+
+###
+#쪽지 1개 가져오기
+GET http://localhost:3000/user/class/0a0c3485-6f31-4376-b/message/5?type=only HTTP/1.1
+
+###
+#한명에게 받거나 보낸 쪽지 리스트 따로 모아보기
+GET http://localhost:3000/user/class/0a0c3485-6f31-4376-b/message/ HTTP/1.1
+
+###
+#쪽지 보내기
+POST http://localhost:3000/user/class/0a0c3485-6f31-4376-b/message/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "userList" : ["user2"],
+    "content" : "sendMessageTestString2"
+}
+
+###
+#답장 보내기
+POST http://localhost:3000/user/class/0a0c3485-6f31-4376-b/message/5 HTTP/1.1
+Content-Type: application/json
+
+{
+    "content" : "replyMes34ffdsageTestString42333"
+}
+
+### 유저 닫기
+PUT http://localhost:3000/user/class/aa8dcbc6-4e1e-44b5-8/message/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "userId" : "user3"
+}
+
+### 읽은 처리
+PUT http://localhost:3000/user/class/aa8dcbc6-4e1e-44b5-8/message/1 HTTP/1.1
+Content-Type: application/json
